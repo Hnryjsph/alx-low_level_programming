@@ -4,7 +4,7 @@
  * print_alphabet - prints the alphabet, in lowercas, follwed
  */
 
-void printt_alphabet(void)
+void print_alphabet(void)
 {
 	char ch;
 	char 'a';
