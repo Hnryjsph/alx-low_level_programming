@@ -1,8 +1,8 @@
 #include "main.h"
 /**
- * print_alphabet_x10 - prints alphatbet 10 time
- * Return: void
- */
+* print_alphabet_x10 - prints alphatbet 10 time
+* Return: void
+*/
 
 void print_alphabet_x10(void)
 {
@@ -13,7 +13,7 @@ void print_alphabet_x10(void)
 
 	while (i < 10)
 	{
-	 	ch = 'a';
+		ch = 'a';
 		while (ch <= 'z')
 		{
 			_putchar(ch);
