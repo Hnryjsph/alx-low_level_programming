@@ -1,16 +1,12 @@
 #include "main.h"
 
 /**
- * print_rev - prints the reverse of a string
- * @s: pointer that contains the refrence to tthe string
- * @length: is the length of the string
- *
- * Return: Void
+ * print_rev - prints a string in reverse, followed by a new line
+ * @s: string to be printed
  */
-
 void print_rev(char *s)
 {
-	int i, length;
+	int i, j, len;
 
 	i = 0;
 
@@ -19,13 +15,11 @@ void print_rev(char *s)
 		i++;
 	}
 
-	length = i - 1;
+	len = i;
 
-	while (length >= 0)
+	for (j = len - 1; j >= 0; j--)
 	{
-		_putchar(s[length]);
-
-		length--;
+		_putchar(s[j]);
 	}
 
 	_putchar('\n');
