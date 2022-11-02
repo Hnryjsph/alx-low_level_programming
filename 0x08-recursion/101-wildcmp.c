@@ -1,4 +1,4 @@
-#include "holberton.h"
+#include "main.h"
 
 int bandersnatch(char *s1, char *s2);
 char *move(char *s2);
