@@ -59,9 +59,9 @@ int _atoi(char *s)
 	return (n);
 }
 
-int main(int argc __attribute__((unused)), char *argv[])
+int main(int argc, char *argv[])
 {
-	if (sizeof(argv) > 1)
+	if (argc > 3 || argc < 3)
 	{
 		int a;
 		int b;
@@ -77,7 +77,7 @@ int main(int argc __attribute__((unused)), char *argv[])
 	}
 	else
 	{
-		printf("Error");
+		printf("Error\n");
 
 		return (1);
 }
