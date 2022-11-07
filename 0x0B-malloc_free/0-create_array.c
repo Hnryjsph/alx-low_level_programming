@@ -1,6 +1,14 @@
 #include <stdlib.h>
 #include "main.h"
 
+/**
+ * create_array - Creates an array of the given characters
+ * @size: the size of the array
+ * @c: the character to be filled in the array
+ *
+ * Return: pointer
+ */
+
 char *create_array(unsigned int size, char c)
 {
 	char *ptr;
@@ -10,6 +18,7 @@ char *create_array(unsigned int size, char c)
 	{
 		return (NULL);
 	}
+
 	ptr = (char *) malloc(size);
 
 	for (x = 0; x < size; x++)
