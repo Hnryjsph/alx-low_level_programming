@@ -23,10 +23,10 @@ char *create_array(unsigned int size, char c)
 
 	for (x = 0; x < size; x++)
 	{
-		*(ptr + x) = c;
+		ptr[x] = c;
 	}
 
-	*(ptr + 1) = '\0';
+	// *(ptr + 1) = '\0';
 
 	return (ptr);
 }
